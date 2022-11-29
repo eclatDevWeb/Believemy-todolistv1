@@ -1,0 +1,35 @@
+*, *::before,*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:root {
+    --neutral-color: #EFF5F5;
+    --neutral-color-variation-1: #e3e7e7;
+    --neutral-color-variation-2: #b7bdbd;
+    --neutral-color-variation-3: #939494;
+
+    --primary-color: #497174;
+    --primary-color-variation-1: #3a6063;
+    --primary-color-variation-2: #2b4f52;
+    --primary-color-variation-3: #18383a;
+
+    --secondary-color: #EB6440;
+    --secondary-color-variation-1: #ec552b;
+    --secondary-color-variation-1: #bd3d1a;
+    --secondary-color-variation-1: #972f12;
+
+    --danger-color: #f05454;
+
+    --txt-color: #131418;
+    --txt-color-light: #ccd3f1;
+}
